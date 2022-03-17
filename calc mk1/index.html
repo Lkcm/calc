@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PORTO</title>
+</head>
+<body>
+    <h1> CALCULADORA</h1>
+<div id="container">
+<!-- ADICAO -->
+            <input id="n1+" class="a" name="n1" oninput="calcularMais();">
+            +
+            <input id="n2+" class="a" name="n2" oninput="calcularMais();">
+            =
+            <div class="resultado" id =somamais></div>
+<!-- SUBTRACAO -->
+            <input id="n1-" class="a" name="n1" oninput="calcularMenos();">
+            -
+            <input id="n2-" class="a" name="n2" oninput="calcularMenos();">
+            =
+            <div id=somamenos class="resultado"></div>
+<!-- VEZES -->
+            <input id="n1*" class="a" name="n1" oninput="calcularVezes();">
+            *
+            <input id="n2*" class="a" name="n2" oninput="calcularVezes();">
+            =
+            <div id=somavezes class="resultado"></div>
+<!-- DIVISAO -->
+            <input id="n1/" class="a" name="n1" oninput="calcularDivide();">
+            /
+            <input id="n2/" class="a" name="n2" oninput="calcularDivide();">
+            =
+            <div id=somadivide class="resultado"></div>
+<!-- adicao numeros randomicos -->
+            <input id="n1+&" class="a" name="n1">
+            +a
+            <input id="n2+&" class="a" name="n2">
+            =
+            <div id=somarandom class="resultado"></div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
